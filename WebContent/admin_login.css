@@ -1,0 +1,50 @@
+#form_format {
+	align:center;
+    border-radius: 30px;
+    background: #f3faff;
+    padding: 20px; 
+    width: 500px;
+    height: 300px;    
+}
+h1{
+	text-align:center;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    align:center;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size:20px;
+    width: 48%;
+}
+label[for=forgot_pwd]
+{
+	color:green;
+	font-size:12px;
+	
+	text-decoration:underline;
+}
+button
+{
+	background-color: #f3faff;
+	color:green;
+	font-size:12px;
+	border: none;
+	text-decoration:underline;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
